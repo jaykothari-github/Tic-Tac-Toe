@@ -210,7 +210,6 @@ b8.grid(row = 2, column= 1)
 b9 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b9))
 b9.grid(row = 2, column= 2)
 
-# label
 
 
 rw.mainloop()
