@@ -175,41 +175,39 @@ def c(bt):
 
 
 # 1
-b1 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b1))
+b1 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b1))
 b1.grid(row = 0, column= 0)
 
 # 2
-b2 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b2))
+b2 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b2))
 b2.grid(row = 0, column= 1)
 
 # 3
-b3 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b3))
+b3 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b3))
 b3.grid(row = 0, column= 2)
 
 # 4
-b4 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b4))
+b4 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b4))
 b4.grid(row = 1, column= 0)
 
 # 5
-b5 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b5))
+b5 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b5))
 b5.grid(row = 1, column= 1)
 
 # 6
-b6 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b6))
+b6 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b6))
 b6.grid(row = 1, column= 2)
 
 # 7
-b7 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b7))
+b7 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b7))
 b7.grid(row = 2, column= 0)
 
 # 8
-b8 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b8))
+b8 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b8))
 b8.grid(row = 2, column= 1)
 
 # 9
-b9 = Button(rw, text="", bg="gray", width=10, height=5,command=lambda: c(b9))
+b9 = Button(rw, text="", bg="black", fg='white', width=10, height=5,command=lambda: c(b9))
 b9.grid(row = 2, column= 2)
-
-
 
 rw.mainloop()
